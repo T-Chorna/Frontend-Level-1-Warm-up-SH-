@@ -28,7 +28,7 @@ Frontend-Level-1-SH-/
 
 ## Links
 
-[Resume on GitHub Pages](t-chorna.github.io/Frontend-Level-1-SH-/)
+[Resume on GitHub Pages](https://t-chorna.github.io/Frontend-Level-1-SH-/)
 
 ## Author
 
