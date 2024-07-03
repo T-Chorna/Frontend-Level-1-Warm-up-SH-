@@ -1,17 +1,17 @@
-#Warm-up Project: Resume
+# Warm-up Project: Resume
 
-##Project Description
+## Project Description
 
 This project is part of a learning course aimed at improving web page development skills. The task of the project is to create a small resume about yourself and publish it on GitHub Pages.
 
-##Project Structure
+## Project Structure
 
 Frontend-Level-1-SH-/
 ├── index.html
 ├── photo.jpg
 └── README.md
 
-##Installation Instructions
+## Installation Instructions
 
 1. Clone the repository:
 
@@ -23,10 +23,10 @@ Frontend-Level-1-SH-/
 
 3. Open the `index.html` file in your browser to view the resume.
 
-##Links
+## Links
 
-[Resume on GitHub Pages](https://github.com/T-Chorna/Frontend-Level-1-SH-)
+[Resume on GitHub Pages](t-chorna.github.io/Frontend-Level-1-SH-/)
 
-Author
+## Author
 
 Tetyana Chorna
