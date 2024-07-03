@@ -7,8 +7,11 @@ This project is part of a learning course aimed at improving web page developmen
 ## Project Structure
 
 Frontend-Level-1-SH-/
+
 ├── index.html
+
 ├── photo.jpg
+
 └── README.md
 
 ## Installation Instructions
