@@ -16,45 +16,76 @@
     .body{
       font-family: "Oxygen", sans-serif;
       font-weight: 400;
-      display: flex;
-      align-items: center;
       margin: 20px 100px;
       padding: 8px;
       border: 2px dashed #383350;
       border-radius: 8px;
     }
-    .name{
+
+    #main-inform-container{
+      display: flex;
+      align-items: center;
+    }
+
+    #name{
       font-family: "Playwrite AU VIC", cursive;
       font-weight: bold;
       color: #383350;
       margin-top: 0;
     }
-    .about{
+    #about{
       padding: 40px;
       font-size: 16px;
       color: #615d79;
     }
 
-    .photo{
+    #photo{
       border-radius: 8px;
       box-shadow: 4px 8px 8px #a1a1a1;
     }
 
-    .email{
+    #email{
       font-family: "Playwrite AU VIC", cursive;
       font-weight: bold;
       text-decoration: none;
       color: #383350;
     }
+
+    #portfolio{
+      padding: 40px;
+    }
+    #portfolio-title{
+      font-family: "Playwrite AU VIC", cursive;
+      font-weight: bold;
+      color: #383350;
+    }
+
+    .portfolio-links{
+      font-size: 16px;
+      color: #615d79;
+    }
   </style>
 </head>
 <body class="body">
-  <div class="about"> 
-    <h1 class="name">Tatyana Chorna</h1>
-    <p class="main-text">Fulstack developer. Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, illum odit! Inventore sequi numquam assumenda sed, est voluptatem perferendis in reprehenderit aliquam illum aliquid laboriosam doloremque fugiat repellendus, beatae aspernatur?</p>
-    <a class="email" href="mailto:tanechka.chernaya@gmail.com">tanechka.chernaya@gmail.com</a>
-  </div>
+  <section id="main-inform-container">
+    <div id="about"> 
+      <h1 id="name">Tatyana Chorna</h1>
+      <p id="main-text">Fulstack developer. Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, illum odit! Inventore sequi numquam assumenda sed, est voluptatem perferendis in reprehenderit aliquam illum aliquid laboriosam doloremque fugiat repellendus, beatae aspernatur?</p>
+      <a id="email" href="mailto:tanechka.chernaya@gmail.com">tanechka.chernaya@gmail.com</a>
+    </div>
 
-  <img class="photo" src="photo.jpg" alt="Photo by Tatyana Chorna" width="280">
+    <img class="photo" src="photo.jpg" alt="Photo by Tatyana Chorna" width="280">
+
+  </section>
+
+  <section id="portfolio">
+    <h2 id="portfolio-title">Portfolio</h2>
+    <ul id="portfolio-list">
+      <li class="portfolio-links">
+        Верстка сайту Di Gi digital agency (HTML + CSS, без JS) - 
+        <a href="https://t-chorna.github.io/di-gi/">https://t-chorna.github.io/di-gi/</a>
+      </li>
+    </ul>
+  </section>
 </body>
 </html>
